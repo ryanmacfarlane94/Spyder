@@ -3,6 +3,8 @@ from selenium.webdriver.chrome.options import Options
 import time
 from pymongo import MongoClient
 
+#https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
 def save_page(store, url, page_source):
     pages = database["pages"]
     page = {
